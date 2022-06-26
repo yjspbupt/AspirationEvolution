@@ -30,7 +30,6 @@ int main()
 		string file_name;
 		file_name=to_string(i)+".txt";
 		fout.open(file_name,ios::out);
-		fout<<1<<endl;
 		for(int j=0;j<n;j++)fout<<lambda[j]<<" ";
 	}
 }
