@@ -8,7 +8,8 @@ Their output is a $n \times n$ ( $n=100, i=0,1,... ,n-1$) matrix, which is corre
 
 To use fig2.cpp and fig3.cpp, you should run lambda.cpp and p.cpp respectively first.
 
-Fig2.cpp needs the random activity strength as input and the input also contains the observed individual number (usally is $1$).
+Fig2.cpp needs the random activity strength as input.
 
 Fig3.cpp needs the random switching pattern as input.
 
+In Fig2~Fig5, we focus on a certain individual, this individual is number $1$
