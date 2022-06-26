@@ -38,13 +38,13 @@ int main()
 	
 	fout<<"AH"<<","<<"AL"<<","<<"BH"<<","<<"BL"<<endl;
 	
-	
+	member=1;
 	for(int i=1;i<=20;i++)
 	{
 		string lambda_file="lambda\\"+to_string(i)+".txt";
 		fin_lambda.open(lambda_file,ios::in);
 		double lambda[max_N];
-		fin_lambda>>member;
+		
 		v[member].beta=ind_beta;
 		
 		for(int j=0;j<n;j++)fin_lambda>>lambda[j];
